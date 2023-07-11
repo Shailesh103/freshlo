@@ -1,0 +1,28 @@
+#home{
+  
+    height: 580px;
+    padding: 3px 5px;
+  }
+  nav ul li{
+    margin-left: 15px;
+  }
+  .logo{
+    margin-left: 15px;
+  }
+  .about-container{
+    margin-bottom: 30px;
+  }
+  
+  #home p{
+     
+      color: rgb(67, 26, 26);
+      font-size: 20px;
+  }
+ 
+  #footer p {
+    color: rgb(255, 255, 255);
+  }
+  
+  #home::before{
+    height: 680px;
+  }

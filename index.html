@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fresh Produce Store</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="phone.css">
+  <link rel="stylesheet" media="screen and (max-width:1170px)" href="phone.css">
+</head>
+<body>
+  <header id="header">
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo">
+     
+    </div>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#Categories">Categories</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="home">
+    <h1>Welcome to Freshlo</h1>
+    <p>
+      Get Fresh Groceries Delivered Right to Your Doorstep!
+
+    </p>
+    <p>
+      Discover a wide selection of fresh vegetables, fruits, and health-oriented products.
+
+    </p>
+
+    <button id="maddy" onclick="scrollToSection('Categories')">Explore Now</button>
+  
+
+
+ </section>
+
+
+
+  <section id="Categories" class="product-container">
+  
+
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/applegood.jpg" alt="Fruit 1">
+      </div>
+      <div class="product-title">Apple</div>
+      <div class="product-price">$2.99 / kg</div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/banana.jpg" alt="Fruit 2">
+      </div>
+      <div class="product-title">Banana</div>
+      <div class="product-price">$1.99 / bunch</div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/pineapple.jpg" alt="Fruit 3">
+      </div>
+      <div class="product-title">Pineapple</div>
+      <div class="product-price">$0.99 / kg</div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/carrot.jpg" alt="Vegetable 1">
+      </div>
+      <div class="product-title">Carrot</div>
+      <div class="product-price">$1.49 / kg</div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/spinach1.jpg" alt="Vegetable 2">
+      </div>
+      <div class="product-title">Spinach</div>
+      <div class="product-price">$1.49 / kg</div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/tomato.jpg" alt="Vegetable 3">
+      </div>
+      <div class="product-title">Tomato</div>
+      <div class="product-price">$1.49 / kg</div>
+    </div>
+
+
+  </section>
+
+
+
+  <section id="About" class="about-container" >
+    <div class="about-image">
+      <img src="images/contactus.jpg" alt="About Us Image">
+    </div>
+    <div class="about-content">
+      <h2>About Us</h2>
+      <p>At Freshlo, we are passionate about delivering the freshest groceries to
+        your doorstep. Our mission is to provide a seamless online shopping
+        experience, making it easy for you to access high-quality products and
+        enjoy the convenience of home delivery. With our commitment to
+        freshness, quality, and customer satisfaction, Freshlo is your trusted
+        partner for all your grocery needs.
+        At Freshlo, we are passionate about delivering the freshest groceries to
+        your doorstep. Our mission is to provide a seamless online shopping
+        experience, making it easy for you to access high-quality products and
+        enjoy the convenience of home delivery. With our commitment to
+        freshness, quality, and customer satisfaction, Freshlo is your trusted
+        partner for all your grocery needs.</p>
+    </div>
+  </section>
+
+ 
+
+<section id="Contact" class="contact-section" >
+  <div class="contact-container">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</section>
+
+  <footer id="footer">
+    <p>&copy; 2023 Fresh Produce Store. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
